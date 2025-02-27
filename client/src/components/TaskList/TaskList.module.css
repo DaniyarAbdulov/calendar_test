@@ -1,0 +1,91 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+    width: 100%;
+    color: black;
+    
+}
+
+li:hover {
+    background: #f1f1f1;
+}
+.noTasks {
+    color: black;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+input[type="checkbox"]::before {
+    content: "✔";
+    font-size: 14px;
+    color: white;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"]:checked::before {
+    display: block;
+}
+
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+}
