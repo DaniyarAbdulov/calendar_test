@@ -9,7 +9,7 @@
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    background-color: #005eff;;
+    background-color: #898e97;;
 }
 
 .header {
@@ -66,11 +66,14 @@
 }
 
 .today {
-    background-color: #ffde59;
+    background-color: #acc6db;
     font-weight: bold;
-    border: 2px solid #ff9f00;
+    border: 2px solid #42455d;
     color: black;
+    transition: all 0.2s ease-in-out;
+    scale: 1.12;
 }
+
 
 .taskCount {
     font-size: 12px;

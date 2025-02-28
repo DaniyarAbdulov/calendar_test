@@ -5,6 +5,10 @@
     max-width: 600px;
     margin: 20px auto;
     width: 90%;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .input {
@@ -12,7 +16,7 @@
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    background-color:  lightslategrey; 
+    background-color:  rgb(222, 227, 233); 
     color: black; 
 }
 
@@ -23,7 +27,7 @@
 .button {
     padding: 10px;
     font-size: 16px;
-    background-color: #005eff;;
+    background-color: #468bc4;;
     color: white;
     border: none;
     border-radius: 5px;
